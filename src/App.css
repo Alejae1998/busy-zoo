@@ -1,3 +1,7 @@
+* {
+  cursor: pointer;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +39,59 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+  background-image: url('./zoo.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.fight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  margin: 20px;
+  width: 80%;
+  border-radius: 20px;
+  
+}
+.animals {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-left: 90px;
+  margin-top: 20px;
+}
+.elephant {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+
+
+.open {
+  background-color: antiquewhite;
+}
+.closed {
+  background-color: blanchedalmond;
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.parade {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100px;
+  margin-left: 400px;
 }
